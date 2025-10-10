@@ -1,0 +1,5 @@
+fullname_pkg/FullName person1
+fullname_pkg/FullName person2
+---
+string full_name
+int32 total_age
