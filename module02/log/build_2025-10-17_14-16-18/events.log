@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (fullname_pkg) JobQueued: {'identifier': 'fullname_pkg', 'dependencies': OrderedDict()}
+[0.000230] (fullname_pkg) JobStarted: {'identifier': 'fullname_pkg'}
+[0.007629] (fullname_pkg) JobProgress: {'identifier': 'fullname_pkg', 'progress': 'cmake'}
+[0.010622] (fullname_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/alexandra/Robotics/module02/ex09/fullname_pkg', '-DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module02/install/fullname_pkg'], 'cwd': '/home/alexandra/Robotics/module02/build/fullname_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module02/ex09', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/901_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module02/build/fullname_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099218] (-) TimerEvent: {}
+[0.199715] (-) TimerEvent: {}
+[0.235909] (fullname_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299864] (-) TimerEvent: {}
+[0.400499] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.601600] (-) TimerEvent: {}
+[0.701989] (-) TimerEvent: {}
+[0.802337] (-) TimerEvent: {}
+[0.902688] (-) TimerEvent: {}
+[1.003032] (-) TimerEvent: {}
+[1.103355] (-) TimerEvent: {}
+[1.203927] (-) TimerEvent: {}
+[1.225907] (fullname_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.304088] (-) TimerEvent: {}
+[1.404452] (-) TimerEvent: {}
+[1.504882] (-) TimerEvent: {}
+[1.605474] (-) TimerEvent: {}
+[1.706170] (-) TimerEvent: {}
+[1.806583] (-) TimerEvent: {}
+[1.907048] (-) TimerEvent: {}
+[2.007495] (-) TimerEvent: {}
+[2.107870] (-) TimerEvent: {}
+[2.208294] (-) TimerEvent: {}
+[2.237730] (fullname_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.308469] (-) TimerEvent: {}
+[2.408825] (-) TimerEvent: {}
+[2.509293] (-) TimerEvent: {}
+[2.609851] (-) TimerEvent: {}
+[2.641128] (fullname_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.649069] (fullname_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.649369] (fullname_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.649619] (fullname_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.710020] (-) TimerEvent: {}
+[2.810444] (-) TimerEvent: {}
+[2.822252] (fullname_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.910850] (-) TimerEvent: {}
+[3.011182] (-) TimerEvent: {}
+[3.111597] (-) TimerEvent: {}
+[3.212246] (-) TimerEvent: {}
+[3.265926] (fullname_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.273969] (fullname_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.274235] (fullname_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.274835] (fullname_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.278028] (fullname_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.312391] (-) TimerEvent: {}
+[3.412714] (-) TimerEvent: {}
+[3.421550] (fullname_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.512876] (-) TimerEvent: {}
+[3.519279] (fullname_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[3.524244] (fullname_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.613037] (-) TimerEvent: {}
+[3.713431] (-) TimerEvent: {}
+[3.735364] (fullname_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.773287] (fullname_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.813617] (-) TimerEvent: {}
+[3.914280] (-) TimerEvent: {}
+[4.014935] (-) TimerEvent: {}
+[4.075278] (fullname_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):\n'}
+[4.075632] (fullname_pkg) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[4.075780] (fullname_pkg) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[4.075888] (fullname_pkg) StderrLine: {'line': b'  package.xml\n'}
+[4.075990] (fullname_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.076100] (fullname_pkg) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[4.076212] (fullname_pkg) StderrLine: {'line': b'\n'}
+[4.076341] (fullname_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.076460] (fullname_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.085496] (fullname_pkg) CommandEnded: {'returncode': 1}
+[4.108951] (fullname_pkg) JobEnded: {'identifier': 'fullname_pkg', 'rc': 1}
+[4.115159] (-) TimerEvent: {}
+[4.119912] (-) EventReactorShutdown: {}

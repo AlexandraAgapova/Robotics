@@ -1,0 +1,7 @@
+{
+  "package_name": "fullname_pkg",
+  "non_idl_tuples": [
+    "/home/alexandra/Robotics/module02/ex09/fullname_pkg:msg/FullNameMessage.msg",
+    "/home/alexandra/Robotics/module02/ex09/fullname_pkg:srv/FullNameSumService.srv"
+  ]
+}

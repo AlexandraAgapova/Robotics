@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/alexandra/Robotics/module02/build/fullname_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module02/ex09/fullname_pkg -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module02/install/fullname_pkg
+[0.236s] -- The C compiler identification is GNU 13.3.0
+[1.226s] -- The CXX compiler identification is GNU 13.3.0
+[2.238s] -- Detecting C compiler ABI info
+[2.641s] -- Detecting C compiler ABI info - done
+[2.649s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.649s] -- Detecting C compile features
+[2.649s] -- Detecting C compile features - done
+[2.822s] -- Detecting CXX compiler ABI info
+[3.266s] -- Detecting CXX compiler ABI info - done
+[3.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.274s] -- Detecting CXX compile features
+[3.275s] -- Detecting CXX compile features - done
+[3.278s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.421s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.519s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.524s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.773s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.075s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[4.075s]   Packages installing interfaces must include
+[4.076s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[4.076s]   package.xml
+[4.076s] Call Stack (most recent call first):
+[4.076s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[4.076s] 
+[4.076s] [0m
+[4.076s] -- Configuring incomplete, errors occurred!
+[4.085s] Invoked command in '/home/alexandra/Robotics/module02/build/fullname_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module02/ex09/fullname_pkg -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module02/install/fullname_pkg

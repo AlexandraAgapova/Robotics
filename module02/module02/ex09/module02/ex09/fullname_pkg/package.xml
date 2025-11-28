@@ -2,7 +2,7 @@
 <package format="3">
   <name>fullname_pkg</name>
   <version>0.0.1</version>
-  <description>Custom message and service: FullNameMessage and FullNameSumService</description>
+  <description>Custom message and service: full_name_message and FullNameSumService</description>
 
   <maintainer email="you@example.com">Your Name</maintainer>
   <license>Apache-2.0</license>
@@ -14,6 +14,5 @@
 
   <export>
     <build_type>ament_cmake</build_type>
-    <member_of_group>rosidl_interface_packages</member_of_group>
   </export>
 </package>

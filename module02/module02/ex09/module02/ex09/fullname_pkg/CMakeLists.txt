@@ -8,9 +8,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-# Generate our interfaces
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/FullNameMessage.msg"
+  "msg/full_name_message.msg"
   "srv/FullNameSumService.srv"
 )
 

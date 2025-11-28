@@ -1,0 +1,2 @@
+Invoking command in '/home/alexandra/Robotics/module02/build/fullname_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module02/ex09/fullname_pkg -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module02/install/fullname_pkg
+Invoked command in '/home/alexandra/Robotics/module02/build/fullname_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module02/ex09/fullname_pkg -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module02/install/fullname_pkg

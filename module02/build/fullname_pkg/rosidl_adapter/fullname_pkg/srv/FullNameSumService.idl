@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from fullname_pkg/srv/FullNameSumService.srv
+// generated code does not contain a copyright notice
+
+
+module fullname_pkg {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct FullNameSumService_Request {
+      string last_name;
+
+      string name;
+
+      string first_name;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct FullNameSumService_Response {
+      string full_name;
+    };
+  };
+};

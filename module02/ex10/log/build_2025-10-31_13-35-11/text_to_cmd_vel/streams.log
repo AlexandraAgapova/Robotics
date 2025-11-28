@@ -1,0 +1,21 @@
+[1.200s] Invoking command in '/home/alexandra/Robotics/module02/ex10/text_to_cmd_vel': PYTHONPATH=/home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra/Robotics/module02/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/build install --record /home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data
+[1.428s] running egg_info
+[1.447s] writing ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/PKG-INFO
+[1.448s] writing dependency_links to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/dependency_links.txt
+[1.448s] writing entry points to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/entry_points.txt
+[1.448s] writing requirements to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/requires.txt
+[1.448s] writing top-level names to ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/top_level.txt
+[1.484s] reading manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.485s] writing manifest file '../build/text_to_cmd_vel/text_to_cmd_vel.egg-info/SOURCES.txt'
+[1.486s] running build
+[1.486s] running build_py
+[1.486s] running install
+[1.491s] running install_lib
+[1.511s] running install_data
+[1.511s] running install_egg_info
+[1.532s] removing '/home/alexandra/Robotics/module02/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.1-py3.12.egg-info' (and everything under it)
+[1.535s] Copying ../build/text_to_cmd_vel/text_to_cmd_vel.egg-info to /home/alexandra/Robotics/module02/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages/text_to_cmd_vel-0.0.1-py3.12.egg-info
+[1.537s] running install_scripts
+[1.668s] Installing text_to_cmd_vel script to /home/alexandra/Robotics/module02/ex10/install/text_to_cmd_vel/lib/text_to_cmd_vel
+[1.669s] writing list of installed files to '/home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/install.log'
+[1.694s] Invoked command in '/home/alexandra/Robotics/module02/ex10/text_to_cmd_vel' returned '0': PYTHONPATH=/home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra/Robotics/module02/ex10/install/text_to_cmd_vel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/text_to_cmd_vel build --build-base /home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/build install --record /home/alexandra/Robotics/module02/ex10/build/text_to_cmd_vel/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: text-to-cmd-vel
+Version: 0.0.1
+Summary: Node converting text commands into geometry_msgs/Twist messages
+Maintainer: alexandra
+Maintainer-email: a.agapova1@g.nsu.ru
+License: MIT
