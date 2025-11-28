@@ -1,0 +1,466 @@
+[0.000000] (-) TimerEvent: {}
+[0.000777] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000821] (service_full_name) JobQueued: {'identifier': 'service_full_name', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/alexandra/Robotics/module03/install/tutorial_interfaces'})}
+[0.000877] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.012904] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.015704] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/alexandra/Robotics/module03/ex01/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module03/install/tutorial_interfaces'], 'cwd': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.099786] (-) TimerEvent: {}
+[0.200930] (-) TimerEvent: {}
+[0.253095] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.301151] (-) TimerEvent: {}
+[0.405984] (-) TimerEvent: {}
+[0.511079] (-) TimerEvent: {}
+[0.616287] (-) TimerEvent: {}
+[0.716762] (-) TimerEvent: {}
+[0.817172] (-) TimerEvent: {}
+[0.817466] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.919466] (-) TimerEvent: {}
+[1.024697] (-) TimerEvent: {}
+[1.129948] (-) TimerEvent: {}
+[1.235210] (-) TimerEvent: {}
+[1.294321] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.337332] (-) TimerEvent: {}
+[1.437676] (-) TimerEvent: {}
+[1.539036] (-) TimerEvent: {}
+[1.571765] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.579750] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.580667] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.581329] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.639256] (-) TimerEvent: {}
+[1.667752] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.739498] (-) TimerEvent: {}
+[1.841736] (-) TimerEvent: {}
+[1.931806] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.940080] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.940434] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.940843] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.941849] (-) TimerEvent: {}
+[1.954672] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.043486] (-) TimerEvent: {}
+[2.106391] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.145439] (-) TimerEvent: {}
+[2.231324] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.239445] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.245823] (-) TimerEvent: {}
+[2.350990] (-) TimerEvent: {}
+[2.413322] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.452961] (-) TimerEvent: {}
+[2.474946] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.481147] (tutorial_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.556615] (-) TimerEvent: {}
+[2.661845] (-) TimerEvent: {}
+[2.767045] (-) TimerEvent: {}
+[2.872279] (-) TimerEvent: {}
+[2.977501] (-) TimerEvent: {}
+[3.082706] (-) TimerEvent: {}
+[3.163056] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.183784] (-) TimerEvent: {}
+[3.288991] (-) TimerEvent: {}
+[3.393789] (-) TimerEvent: {}
+[3.499007] (-) TimerEvent: {}
+[3.604005] (-) TimerEvent: {}
+[3.648238] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.706842] (-) TimerEvent: {}
+[3.812025] (-) TimerEvent: {}
+[3.917209] (-) TimerEvent: {}
+[4.020162] (-) TimerEvent: {}
+[4.125352] (-) TimerEvent: {}
+[4.228824] (-) TimerEvent: {}
+[4.264648] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.268960] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.330321] (-) TimerEvent: {}
+[4.406175] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.431614] (-) TimerEvent: {}
+[4.534605] (-) TimerEvent: {}
+[4.635090] (-) TimerEvent: {}
+[4.739422] (-) TimerEvent: {}
+[4.844622] (-) TimerEvent: {}
+[4.915663] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.946158] (-) TimerEvent: {}
+[4.981725] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[5.049635] (-) TimerEvent: {}
+[5.051048] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.064033] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/alexandra/Robotics/module03/build/tutorial_interfaces\n'}
+[5.076225] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.076963] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[5.077509] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alexandra/Robotics/module03/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[5.139631] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.149779] (-) TimerEvent: {}
+[5.150967] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[5.250167] (-) TimerEvent: {}
+[5.323081] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__rosidl_generator_type_description\n'}
+[5.335796] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.348705] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.350335] (-) TimerEvent: {}
+[5.367726] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.368713] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[5.389708] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.389991] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.390213] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.390375] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.452313] (-) TimerEvent: {}
+[5.471509] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.471946] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.505669] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.554720] (-) TimerEvent: {}
+[5.619020] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/summ_full_name__type_support.c.o\x1b[0m\n'}
+[5.619382] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/summ_full_name__description.c.o\x1b[0m\n'}
+[5.619493] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/summ_full_name__functions.c.o\x1b[0m\n'}
+[5.631984] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] Built target tutorial_interfaces__cpp\n'}
+[5.654929] (-) TimerEvent: {}
+[5.728228] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.756351] (-) TimerEvent: {}
+[5.847016] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[5.856703] (-) TimerEvent: {}
+[5.860211] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.860442] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.860534] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.860630] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.860711] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.860788] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.957025] (-) TimerEvent: {}
+[6.062285] (-) TimerEvent: {}
+[6.110084] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/summ_full_name__type_support.cpp.o\x1b[0m\n'}
+[6.125021] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/summ_full_name__type_support.cpp.o\x1b[0m\n'}
+[6.131723] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/summ_full_name__type_support.c.o\x1b[0m\n'}
+[6.162505] (-) TimerEvent: {}
+[6.167469] (tutorial_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/summ_full_name__type_support.cpp.o\x1b[0m\n'}
+[6.188941] (tutorial_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.196698] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/summ_full_name__type_support.cpp.o\x1b[0m\n'}
+[6.199640] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.222685] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/summ_full_name__type_support_c.cpp.o\x1b[0m\n'}
+[6.262767] (-) TimerEvent: {}
+[6.336123] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.343388] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[6.363032] (-) TimerEvent: {}
+[6.465956] (-) TimerEvent: {}
+[6.571236] (-) TimerEvent: {}
+[6.645359] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.672633] (-) TimerEvent: {}
+[6.678871] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.772970] (-) TimerEvent: {}
+[6.795278] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.833372] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[6.860478] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.873155] (-) TimerEvent: {}
+[6.905362] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.965169] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.973247] (-) TimerEvent: {}
+[7.058176] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.074117] (-) TimerEvent: {}
+[7.083269] (tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target tutorial_interfaces\n'}
+[7.108381] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.177500] (-) TimerEvent: {}
+[7.282584] (-) TimerEvent: {}
+[7.387108] (-) TimerEvent: {}
+[7.420186] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[7.445876] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_summ_full_name_s.c.o\x1b[0m\n'}
+[7.489679] (-) TimerEvent: {}
+[7.594916] (-) TimerEvent: {}
+[7.652577] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.697106] (-) TimerEvent: {}
+[7.778711] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[7.798141] (-) TimerEvent: {}
+[7.803782] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.803980] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.804050] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.898321] (-) TimerEvent: {}
+[7.921224] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.921413] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.929554] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.000471] (-) TimerEvent: {}
+[8.002802] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_c\n'}
+[8.003062] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[8.042675] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[8.058919] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.059676] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[8.071191] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alexandra/Robotics/module03/build/tutorial_interfaces'], 'cwd': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/tutorial_interfaces', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[8.081861] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.083551] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[8.084660] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/srv/SummFullName.json\n'}
+[8.084880] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.086197] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.086655] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/summ_full_name.h\n'}
+[8.086851] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.087331] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__type_support.h\n'}
+[8.087526] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__struct.h\n'}
+[8.087713] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__description.c\n'}
+[8.087956] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__type_support.c\n'}
+[8.088164] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__functions.c\n'}
+[8.088402] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__functions.h\n'}
+[8.088621] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.089190] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.089805] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[8.090036] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[8.090682] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[8.091244] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.091461] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.091534] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.091591] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.091644] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[8.091751] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.091922] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.092030] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.092533] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.092733] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.092858] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.092998] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.093205] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__rosidl_typesupport_introspection_c.h\n'}
+[8.093372] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__type_support.c\n'}
+[8.093539] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.093691] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.093880] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.094022] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.094201] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[8.094521] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.094713] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.094785] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.094841] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/summ_full_name.hpp\n'}
+[8.094942] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.095116] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__type_support.hpp\n'}
+[8.095284] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__traits.hpp\n'}
+[8.095393] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__struct.hpp\n'}
+[8.095601] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__builder.hpp\n'}
+[8.095827] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.095997] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.096175] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.096289] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.096448] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.096667] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[8.096790] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.096983] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[8.097135] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.097344] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.097971] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.098163] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[8.098290] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[8.098475] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[8.098538] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.098595] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/summ_full_name__type_support.cpp\n'}
+[8.098707] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.099278] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.099424] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.099891] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.100066] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[8.100189] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[8.100395] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info\n'}
+[8.100464] (-) TimerEvent: {}
+[8.101704] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[8.101903] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[8.102070] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[8.102304] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[8.102549] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces\n'}
+[8.103032] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.103233] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.103460] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.103666] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv\n'}
+[8.104141] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[8.104332] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_summ_full_name.py\n'}
+[8.104551] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_summ_full_name_s.c\n'}
+[8.104783] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.104999] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.105252] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.105472] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py\n'}
+[8.146407] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...\n"}
+[8.146602] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[8.146682] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...\n"}
+[8.146751] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[8.146818] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_summ_full_name.py'...\n"}
+[8.152442] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.152919] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.153209] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.153626] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.153878] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.154306] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[8.154510] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[8.154872] (tutorial_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.155088] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/srv/SummFullName.idl\n'}
+[8.155277] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/srv/SummFullName.srv\n'}
+[8.155867] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[8.156501] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[8.156744] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[8.156959] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.157246] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[8.157515] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[8.157736] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[8.157964] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[8.158199] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[8.158375] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[8.158587] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[8.159218] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[8.159878] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.160115] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.160354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.160578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.160807] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.161030] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.161301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.161521] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.161755] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.162004] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.162231] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.162471] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.162693] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.162925] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.163161] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.163397] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.163618] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.163834] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.164066] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.164283] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.164495] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.164723] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.164938] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.165191] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.165417] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[8.165616] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[8.165846] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[8.169341] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[8.196310] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[8.197094] (service_full_name) JobStarted: {'identifier': 'service_full_name'}
+[8.200778] (-) TimerEvent: {}
+[8.304638] (-) TimerEvent: {}
+[8.312837] (service_full_name) JobProgress: {'identifier': 'service_full_name', 'progress': 'cmake'}
+[8.315390] (service_full_name) Command: {'cmd': ['/usr/bin/cmake', '/home/alexandra/Robotics/module03/ex01/service_full_name', '-DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module03/install/service_full_name'], 'cwd': '/home/alexandra/Robotics/module03/build/service_full_name', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/service_full_name', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[8.404956] (-) TimerEvent: {}
+[8.449952] (service_full_name) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[8.505153] (-) TimerEvent: {}
+[8.605695] (-) TimerEvent: {}
+[8.707301] (-) TimerEvent: {}
+[8.812585] (-) TimerEvent: {}
+[8.917831] (-) TimerEvent: {}
+[8.938844] (service_full_name) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[9.021812] (-) TimerEvent: {}
+[9.122367] (-) TimerEvent: {}
+[9.227588] (-) TimerEvent: {}
+[9.332784] (-) TimerEvent: {}
+[9.378797] (service_full_name) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.433280] (-) TimerEvent: {}
+[9.533606] (-) TimerEvent: {}
+[9.621604] (service_full_name) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.629605] (service_full_name) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.629879] (service_full_name) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.630252] (service_full_name) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.633708] (-) TimerEvent: {}
+[9.720849] (service_full_name) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.733860] (-) TimerEvent: {}
+[9.834184] (-) TimerEvent: {}
+[9.934769] (-) TimerEvent: {}
+[9.981084] (service_full_name) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.989389] (service_full_name) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.989673] (service_full_name) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.990107] (service_full_name) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.993496] (service_full_name) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.034977] (-) TimerEvent: {}
+[10.139086] (-) TimerEvent: {}
+[10.139579] (service_full_name) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.244122] (-) TimerEvent: {}
+[10.244689] (service_full_name) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[10.348101] (-) TimerEvent: {}
+[10.377411] (service_full_name) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[10.390974] (service_full_name) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[10.407353] (service_full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.425026] (service_full_name) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.449337] (-) TimerEvent: {}
+[10.523277] (service_full_name) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[10.528080] (service_full_name) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.550517] (-) TimerEvent: {}
+[10.646003] (service_full_name) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[10.650725] (-) TimerEvent: {}
+[10.754421] (-) TimerEvent: {}
+[10.789375] (service_full_name) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[10.857735] (-) TimerEvent: {}
+[10.879077] (service_full_name) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.961745] (-) TimerEvent: {}
+[11.066991] (-) TimerEvent: {}
+[11.073337] (service_full_name) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/alexandra/Robotics/module03/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[11.112086] (service_full_name) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[11.169299] (-) TimerEvent: {}
+[11.222286] (service_full_name) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.222602] (service_full_name) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.222682] (service_full_name) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.224127] (service_full_name) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.226278] (service_full_name) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.226379] (service_full_name) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.227500] (service_full_name) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.229606] (service_full_name) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[11.251299] (service_full_name) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.256704] (service_full_name) StdoutLine: {'line': b'-- Build files have been written to: /home/alexandra/Robotics/module03/build/service_full_name\n'}
+[11.268416] (service_full_name) CommandEnded: {'returncode': 0}
+[11.269132] (service_full_name) JobProgress: {'identifier': 'service_full_name', 'progress': 'build'}
+[11.269655] (service_full_name) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alexandra/Robotics/module03/build/service_full_name', '--', '-j12', '-l12'], 'cwd': '/home/alexandra/Robotics/module03/build/service_full_name', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/service_full_name', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[11.269910] (-) TimerEvent: {}
+[11.333041] (service_full_name) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_name.dir/src/client_name.cpp.o\x1b[0m\n'}
+[11.333242] (service_full_name) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_name.dir/src/service_name.cpp.o\x1b[0m\n'}
+[11.370838] (-) TimerEvent: {}
+[11.474792] (-) TimerEvent: {}
+[11.580035] (-) TimerEvent: {}
+[11.680496] (-) TimerEvent: {}
+[11.784793] (-) TimerEvent: {}
+[11.890046] (-) TimerEvent: {}
+[11.995323] (-) TimerEvent: {}
+[12.099174] (-) TimerEvent: {}
+[12.204172] (-) TimerEvent: {}
+[12.309490] (-) TimerEvent: {}
+[12.412228] (-) TimerEvent: {}
+[12.517498] (-) TimerEvent: {}
+[12.622774] (-) TimerEvent: {}
+[12.724370] (-) TimerEvent: {}
+[12.829644] (-) TimerEvent: {}
+[12.934919] (-) TimerEvent: {}
+[13.038301] (-) TimerEvent: {}
+[13.143675] (-) TimerEvent: {}
+[13.248957] (-) TimerEvent: {}
+[13.354231] (-) TimerEvent: {}
+[13.459500] (-) TimerEvent: {}
+[13.564786] (-) TimerEvent: {}
+[13.670065] (-) TimerEvent: {}
+[13.775661] (-) TimerEvent: {}
+[13.880943] (-) TimerEvent: {}
+[13.986040] (-) TimerEvent: {}
+[14.091321] (-) TimerEvent: {}
+[14.196588] (-) TimerEvent: {}
+[14.301853] (-) TimerEvent: {}
+[14.407101] (-) TimerEvent: {}
+[14.512364] (-) TimerEvent: {}
+[14.617604] (-) TimerEvent: {}
+[14.722874] (-) TimerEvent: {}
+[14.828171] (-) TimerEvent: {}
+[14.933735] (-) TimerEvent: {}
+[15.038837] (-) TimerEvent: {}
+[15.144095] (-) TimerEvent: {}
+[15.191046] (service_full_name) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable service_name\x1b[0m\n'}
+[15.245153] (-) TimerEvent: {}
+[15.347704] (-) TimerEvent: {}
+[15.383024] (service_full_name) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client_name\x1b[0m\n'}
+[15.446830] (service_full_name) StdoutLine: {'line': b'[100%] Built target service_name\n'}
+[15.447827] (-) TimerEvent: {}
+[15.550210] (-) TimerEvent: {}
+[15.604765] (service_full_name) StdoutLine: {'line': b'[100%] Built target client_name\n'}
+[15.619469] (service_full_name) CommandEnded: {'returncode': 0}
+[15.620220] (service_full_name) JobProgress: {'identifier': 'service_full_name', 'progress': 'install'}
+[15.620656] (service_full_name) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alexandra/Robotics/module03/build/service_full_name'], 'cwd': '/home/alexandra/Robotics/module03/build/service_full_name', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module03/ex01/service_full_name/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/alexandra/Robotics/module03/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module03/build/service_full_name', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/alexandra/Robotics/module03/install/tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[15.630515] (service_full_name) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.631990] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/lib/service_full_name/service_name\n'}
+[15.633518] (service_full_name) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/service_full_name/lib/service_full_name/service_name" to ""\n'}
+[15.633781] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/lib/service_full_name/client_name\n'}
+[15.635309] (service_full_name) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/service_full_name/lib/service_full_name/client_name" to ""\n'}
+[15.636983] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/ament_index/resource_index/package_run_dependencies/service_full_name\n'}
+[15.637655] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/ament_index/resource_index/parent_prefix_path/service_full_name\n'}
+[15.638645] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/environment/ament_prefix_path.sh\n'}
+[15.638890] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/environment/ament_prefix_path.dsv\n'}
+[15.639099] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/environment/path.sh\n'}
+[15.639315] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/environment/path.dsv\n'}
+[15.639521] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/local_setup.bash\n'}
+[15.639719] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/local_setup.sh\n'}
+[15.639948] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/local_setup.zsh\n'}
+[15.640163] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/local_setup.dsv\n'}
+[15.640368] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/package.dsv\n'}
+[15.641020] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/ament_index/resource_index/packages/service_full_name\n'}
+[15.641667] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/cmake/service_full_nameConfig.cmake\n'}
+[15.641859] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/cmake/service_full_nameConfig-version.cmake\n'}
+[15.642094] (service_full_name) StdoutLine: {'line': b'-- Installing: /home/alexandra/Robotics/module03/install/service_full_name/share/service_full_name/package.xml\n'}
+[15.645127] (service_full_name) CommandEnded: {'returncode': 0}
+[15.650352] (-) TimerEvent: {}
+[15.656103] (service_full_name) JobEnded: {'identifier': 'service_full_name', 'rc': 0}
+[15.657034] (-) EventReactorShutdown: {}

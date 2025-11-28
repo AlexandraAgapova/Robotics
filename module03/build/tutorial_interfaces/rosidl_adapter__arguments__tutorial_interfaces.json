@@ -1,0 +1,6 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/alexandra/Robotics/module03/ex01/tutorial_interfaces:srv/SummFullName.srv"
+  ]
+}

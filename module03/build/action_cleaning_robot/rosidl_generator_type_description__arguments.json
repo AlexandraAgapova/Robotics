@@ -1,0 +1,13 @@
+{
+  "package_name": "action_cleaning_robot",
+  "output_dir": "/home/alexandra/Robotics/module03/build/action_cleaning_robot/rosidl_generator_type_description/action_cleaning_robot",
+  "idl_tuples": [
+    "/home/alexandra/Robotics/module03/build/action_cleaning_robot/rosidl_adapter/action_cleaning_robot:action/CleaningTask.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

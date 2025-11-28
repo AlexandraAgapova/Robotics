@@ -1,0 +1,8 @@
+setup.py
+action_cleaning_robot/__init__.py
+action_cleaning_robot.egg-info/PKG-INFO
+action_cleaning_robot.egg-info/SOURCES.txt
+action_cleaning_robot.egg-info/dependency_links.txt
+action_cleaning_robot.egg-info/top_level.txt
+action_cleaning_robot/action/__init__.py
+action_cleaning_robot/action/_cleaning_task.py

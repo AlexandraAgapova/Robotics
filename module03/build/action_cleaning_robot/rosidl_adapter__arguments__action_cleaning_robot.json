@@ -1,0 +1,6 @@
+{
+  "package_name": "action_cleaning_robot",
+  "non_idl_tuples": [
+    "/home/alexandra/Robotics/module03/ex05/action_cleaning_robot:action/CleaningTask.action"
+  ]
+}

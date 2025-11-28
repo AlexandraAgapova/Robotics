@@ -1,0 +1,12 @@
+{
+  "package_name": "tutorial_interfaces",
+  "output_dir": "/home/alexandra/Robotics/module03/build/tutorial_interfaces/rosidl_generator_type_description/tutorial_interfaces",
+  "idl_tuples": [
+    "/home/alexandra/Robotics/module03/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/SummFullName.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "action_cleaning_robot__py",
+		"source" : "/home/alexandra/Robotics/module03/build/action_cleaning_robot/action_cleaning_robot__py"
+	}
+}

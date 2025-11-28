@@ -1,0 +1,215 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (2.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/alexandra/Robotics/module03/build/action_cleaning_robot
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_action_cleaning_robot
+running egg_info
+creating action_cleaning_robot.egg-info
+[  2%] Built target action_cleaning_robot__rosidl_generator_type_description
+writing action_cleaning_robot.egg-info/PKG-INFO
+writing dependency_links to action_cleaning_robot.egg-info/dependency_links.txt
+writing top-level names to action_cleaning_robot.egg-info/top_level.txt
+writing manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+writing manifest file 'action_cleaning_robot.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_action_cleaning_robot_egg
+[  8%] Built target action_cleaning_robot__cpp
+[ 11%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_c.dir/rosidl_generator_c/action_cleaning_robot/action/detail/cleaning_task__description.c.o[0m
+[ 20%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_c.so[0m
+[ 20%] Built target action_cleaning_robot__rosidl_generator_c
+[ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_cleaning_robot/action/cleaning_task__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_cleaning_robot/action/cleaning_task__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_c.so[0m
+[ 52%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_cleaning_robot/action/detail/cleaning_task__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_cleaning_robot/action/detail/dds_fastrtps/cleaning_task__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/action_cleaning_robot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_cleaning_robot/action/detail/cleaning_task__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target action_cleaning_robot__rosidl_typesupport_c
+[ 61%] Built target action_cleaning_robot__rosidl_typesupport_introspection_c
+[ 64%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so[0m
+[ 70%] Built target action_cleaning_robot__rosidl_typesupport_cpp
+[ 70%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_c
+[ 70%] Built target action_cleaning_robot__rosidl_typesupport_introspection_cpp
+[ 73%] [32m[1mLinking CXX shared library libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 73%] Built target action_cleaning_robot__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target action_cleaning_robot
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target action_cleaning_robot__py
+[ 79%] [32mBuilding C object CMakeFiles/action_cleaning_robot__rosidl_generator_py.dir/rosidl_generator_py/action_cleaning_robot/action/_cleaning_task_s.c.o[0m
+[ 82%] [32m[1mLinking C shared library libaction_cleaning_robot__rosidl_generator_py.so[0m
+[ 82%] Built target action_cleaning_robot__rosidl_generator_py
+[ 91%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/action_cleaning_robot_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so[0m
+[ 97%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target action_cleaning_robot_s__rosidl_typesupport_c
+[100%] Built target action_cleaning_robot_s__rosidl_typesupport_introspection_c
+[100%] Built target action_cleaning_robot_s__rosidl_typesupport_fastrtps_c
+-- Install configuration: ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/ament_index/resource_index/rosidl_interfaces/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.json
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__description.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__functions.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.sh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/library_path.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_c.h
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/cleaning_task.hpp
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__struct.hpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.hpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__traits.hpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__builder.hpp
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/dds_fastrtps
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action
+-- Up-to-date: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__type_support.cpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/include/action_cleaning_robot/action_cleaning_robot/action/detail/cleaning_task__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.sh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/pythonpath.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task_s.c
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py
+Listing '/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot'...
+Compiling '/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/__init__.py'...
+Listing '/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action'...
+Compiling '/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/__init__.py'...
+Compiling '/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action/_cleaning_task.py'...
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/python3.12/site-packages/action_cleaning_robot/action_cleaning_robot_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/libaction_cleaning_robot__rosidl_generator_py.so" to ""
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.idl
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/action/CleaningTask.action
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/action_cleaning_robot/cleaning_action_server.py
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/lib/action_cleaning_robot/cleaning_action_client.py
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/ament_index/resource_index/package_run_dependencies/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/ament_index/resource_index/parent_prefix_path/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.sh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.sh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/environment/path.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.bash
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.sh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.zsh
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/local_setup.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/package.dsv
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/ament_index/resource_index/packages/action_cleaning_robot
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_cppExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robot__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/export_action_cleaning_robot__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/cmake/action_cleaning_robotConfig-version.cmake
+-- Installing: /home/alexandra/Robotics/module03/install/action_cleaning_robot/share/action_cleaning_robot/package.xml

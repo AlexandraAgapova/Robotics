@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/alexandra/Robotics/module03/build/action_cleaning_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexandra/Robotics/module03/install/move_to_goal:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module03/ex05/action_cleaning_robot -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module03/install/action_cleaning_robot
+[0.027s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.247s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.398s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.399s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.748s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.749s]   Packages installing interfaces must include
+[0.749s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.749s]   package.xml
+[0.749s] Call Stack (most recent call first):
+[0.749s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[0.749s] 
+[0.749s] [0m
+[0.750s] -- Configuring incomplete, errors occurred!
+[0.757s] Invoked command in '/home/alexandra/Robotics/module03/build/action_cleaning_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alexandra/Robotics/module03/install/move_to_goal:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module03/ex05/action_cleaning_robot -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module03/install/action_cleaning_robot

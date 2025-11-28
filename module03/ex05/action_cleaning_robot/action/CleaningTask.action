@@ -1,0 +1,16 @@
+# goal definition
+string task_type      # "clean_square", "clean_circle", "return_home"
+float64 area_size     # размер области (сторона квадрата или радиус)
+float64 target_x      # цель X (для return_home)
+float64 target_y      # цель Y (для return_home)
+---
+# result definition
+bool success
+int32 cleaned_points
+float64 total_distance
+---
+# feedback
+int32 progress_percent
+int32 current_cleaned_points
+float64 current_x
+float64 current_y

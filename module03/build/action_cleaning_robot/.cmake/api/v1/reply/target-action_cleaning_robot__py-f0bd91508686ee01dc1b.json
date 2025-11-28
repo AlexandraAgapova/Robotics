@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/alexandra/Robotics/module03/build/action_cleaning_robot/action_cleaning_robot__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "action_cleaning_robot::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "action_cleaning_robot__py::@0259e1736d8eea0aa713",
+	"name" : "action_cleaning_robot__py",
+	"paths" : 
+	{
+		"build" : "action_cleaning_robot__py",
+		"source" : "/home/alexandra/Robotics/module03/build/action_cleaning_robot/action_cleaning_robot__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/alexandra/Robotics/module03/build/action_cleaning_robot/action_cleaning_robot__py/CMakeFiles/action_cleaning_robot__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alexandra/Robotics/module03/build/action_cleaning_robot/action_cleaning_robot__py/CMakeFiles/action_cleaning_robot__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alexandra/Robotics/module03/build/action_cleaning_robot/rosidl_generator_py/action_cleaning_robot/_action_cleaning_robot_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

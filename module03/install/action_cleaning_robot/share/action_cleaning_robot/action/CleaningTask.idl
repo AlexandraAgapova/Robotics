@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_cleaning_robot/action/CleaningTask.action
+// generated code does not contain a copyright notice
+
+
+module action_cleaning_robot {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct CleaningTask_Goal {
+      @verbatim (language="comment", text=
+        "\"clean_square\", \"clean_circle\", \"return_home\"")
+      string task_type;
+
+      @verbatim (language="comment", text=
+        "размер области (сторона квадрата или радиус)")
+      double area_size;
+
+      @verbatim (language="comment", text=
+        "цель X (для return_home)")
+      double target_x;
+
+      @verbatim (language="comment", text=
+        "цель Y (для return_home)")
+      double target_y;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct CleaningTask_Result {
+      boolean success;
+
+      int32 cleaned_points;
+
+      double total_distance;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct CleaningTask_Feedback {
+      int32 progress_percent;
+
+      int32 current_cleaned_points;
+
+      double current_x;
+
+      double current_y;
+    };
+  };
+};

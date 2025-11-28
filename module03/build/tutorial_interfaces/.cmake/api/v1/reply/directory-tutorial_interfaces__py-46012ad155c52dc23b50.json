@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tutorial_interfaces__py",
+		"source" : "/home/alexandra/Robotics/module03/build/tutorial_interfaces/tutorial_interfaces__py"
+	}
+}
