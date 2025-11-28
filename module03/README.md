@@ -30,8 +30,7 @@ ros2 bag play turtle_cmd_vel.mcap -r 2.0
 
 ---
 ## ex03
-**t1:**
-mkdir -p ~/Robotics/module03/ex03
+**t1:** mkdir -p ~/Robotics/module03/ex03
 cd ~/Robotics/module03/ex03
 ros2 run turtlesim turtlesim_node
 **t2:**
@@ -43,10 +42,8 @@ ros2 doctor --report > doctor.txt
 ---
 
 ## ex04
-**t1: запуск симулятора**
-ros2 run turtlesim turtlesim_node
-**t2: **
-cd ~/Robotics/module03
+**t1: запуск симулятора** ros2 run turtlesim turtlesim_node
+**t2: ** cd ~/Robotics/module03
 source install/setup.bash
 ros2 run move_to_goal move_to_goal 2.0 9.0 1.57
 **и после: **ros2 run move_to_goal move_to_goal 9.0 2.0 -1.57
