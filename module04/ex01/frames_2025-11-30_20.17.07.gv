@@ -1,0 +1,8 @@
+digraph G {
+"world" -> "turtle1"[label=" Broadcaster: default_authority\nAverage rate: 62.687\nBuffer length: 5.025\nMost recent transform: 1764508627.299994\nOldest transform: 1764508622.275009\n"];
+"world" -> "turtle2"[label=" Broadcaster: default_authority\nAverage rate: 62.687\nBuffer length: 5.025\nMost recent transform: 1764508627.300065\nOldest transform: 1764508622.275075\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1764508627.3053231"[ shape=plaintext ] ;
+}->"world";
+}

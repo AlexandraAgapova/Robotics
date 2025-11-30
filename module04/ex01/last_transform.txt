@@ -1,0 +1,3 @@
+Translation X: -0.148
+Translation Y: -0.048
+Rotation in RPY (degree) Z: 15.979
