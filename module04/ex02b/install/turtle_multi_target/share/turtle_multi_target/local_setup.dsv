@@ -1,0 +1,4 @@
+source;share/turtle_multi_target/environment/ament_prefix_path.sh
+source;share/turtle_multi_target/environment/library_path.sh
+source;share/turtle_multi_target/environment/path.sh
+source;share/turtle_multi_target/environment/pythonpath.sh

@@ -1,0 +1,41 @@
+[0.020s] Invoking command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target
+[0.469s] -- The C compiler identification is GNU 13.3.0
+[1.628s] -- The CXX compiler identification is GNU 13.3.0
+[2.668s] -- Detecting C compiler ABI info
+[3.126s] -- Detecting C compiler ABI info - done
+[3.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.137s] -- Detecting C compile features
+[3.138s] -- Detecting C compile features - done
+[3.326s] -- Detecting CXX compiler ABI info
+[3.768s] -- Detecting CXX compiler ABI info - done
+[3.776s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.776s] -- Detecting CXX compile features
+[3.776s] -- Detecting CXX compile features - done
+[3.806s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.957s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.104s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.108s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.410s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.433s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.549s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.576s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[4.688s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[4.846s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.852s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.990s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.310s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.490s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.911s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.934s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.251s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[6.252s]   Packages installing interfaces must include
+[6.252s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[6.252s]   package.xml
+[6.252s] Call Stack (most recent call first):
+[6.252s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[6.252s] 
+[6.252s] [0m
+[6.252s] -- Configuring incomplete, errors occurred!
+[6.266s] Invoked command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5037e14f7e082b3cb419.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "turtle_multi_target__py",
+					"jsonFile" : "directory-turtle_multi_target__py-404ebe1dc3089ecfb4b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target/turtle_multi_target__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtle_multi_target",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtle_multi_target_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtle_multi_target_egg-1f8f85af618bedd6f40e.json",
+					"name" : "ament_cmake_python_build_turtle_multi_target_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_turtle_multi_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_turtle_multi_target-be60090158a300c22955.json",
+					"name" : "ament_cmake_python_copy_turtle_multi_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target-95eb3d8588cb97eeadfb.json",
+					"name" : "turtle_multi_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__cpp-fab27fe653d522ff68ee.json",
+					"name" : "turtle_multi_target__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtle_multi_target__py::@72719e496bc40ae97884",
+					"jsonFile" : "target-turtle_multi_target__py-a14062afc8f7f528372f.json",
+					"name" : "turtle_multi_target__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_generator_c-8da0cbd47507e99e3cc7.json",
+					"name" : "turtle_multi_target__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_generator_py-05cecaef935540fca786.json",
+					"name" : "turtle_multi_target__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_generator_type_description-54a159c7962b8897eb73.json",
+					"name" : "turtle_multi_target__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_c-5eca11f68dd6c11ff0da.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_cpp-57a8d742d387fd5240c6.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_fastrtps_c-d0d58209390470c1e66f.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_fastrtps_cpp-60e404c85fc3dc413da0.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_introspection_c-958983d04b725c4dd783.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target__rosidl_typesupport_introspection_cpp-abffaf10e8a133ffae1c.json",
+					"name" : "turtle_multi_target__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target_s__rosidl_typesupport_c-fd327ed6732739a5de7c.json",
+					"name" : "turtle_multi_target_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target_s__rosidl_typesupport_fastrtps_c-04c2212664e0acac7f11.json",
+					"name" : "turtle_multi_target_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target_s__rosidl_typesupport_introspection_c-1152b166826a8e8ea474.json",
+					"name" : "turtle_multi_target_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_multi_target_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_multi_target_uninstall-0bdde81688767d272724.json",
+					"name" : "turtle_multi_target_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-faa37c535c2424463531.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target",
+		"source" : "/home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,225 @@
+[0.010s] Invoking command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target
+[0.026s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.241s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.242s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.458s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.512s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.525s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.587s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.645s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.647s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.298s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.305s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.900s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.693s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.008s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.150s] -- Found PythonExtra: /usr/bin/python3  
+[3.682s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.754s] -- Configuring done (3.7s)
+[3.825s] -- Generating done (0.1s)
+[3.836s] -- Build files have been written to: /home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target
+[3.848s] Invoked command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target
+[3.850s] Invoking command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target -- -j12 -l12
+[3.913s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.924s] [  2%] Built target ament_cmake_python_copy_turtle_multi_target
+[4.094s] [  2%] Built target turtle_multi_target__rosidl_generator_type_description
+[4.106s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.120s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.143s] running egg_info
+[4.144s] creating turtle_multi_target.egg-info
+[4.164s] writing turtle_multi_target.egg-info/PKG-INFO
+[4.164s] writing dependency_links to turtle_multi_target.egg-info/dependency_links.txt
+[4.164s] writing top-level names to turtle_multi_target.egg-info/top_level.txt
+[4.164s] writing manifest file 'turtle_multi_target.egg-info/SOURCES.txt'
+[4.221s] reading manifest file 'turtle_multi_target.egg-info/SOURCES.txt'
+[4.222s] writing manifest file 'turtle_multi_target.egg-info/SOURCES.txt'
+[4.252s] [  8%] Built target ament_cmake_python_build_turtle_multi_target_egg
+[4.334s] [  8%] Built target turtle_multi_target__cpp
+[4.348s] [ 17%] [32mBuilding C object CMakeFiles/turtle_multi_target__rosidl_generator_c.dir/rosidl_generator_c/turtle_multi_target/msg/detail/current_target__functions.c.o[0m
+[4.348s] [ 17%] [32mBuilding C object CMakeFiles/turtle_multi_target__rosidl_generator_c.dir/rosidl_generator_c/turtle_multi_target/msg/detail/current_target__description.c.o[0m
+[4.348s] [ 17%] [32mBuilding C object CMakeFiles/turtle_multi_target__rosidl_generator_c.dir/rosidl_generator_c/turtle_multi_target/msg/detail/current_target__type_support.c.o[0m
+[4.442s] [ 20%] [32m[1mLinking C shared library libturtle_multi_target__rosidl_generator_c.so[0m
+[4.640s] [ 20%] Built target turtle_multi_target__rosidl_generator_c
+[4.653s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.654s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.654s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.654s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.656s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.656s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.885s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_multi_target__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_multi_target/msg/current_target__type_support.cpp.o[0m
+[4.904s] [ 44%] [32mBuilding C object CMakeFiles/turtle_multi_target__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_multi_target/msg/detail/current_target__type_support.c.o[0m
+[4.913s] [ 47%] [32mBuilding CXX object CMakeFiles/turtle_multi_target__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_multi_target/msg/current_target__type_support.cpp.o[0m
+[4.949s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_multi_target__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_multi_target/msg/detail/dds_fastrtps/current_target__type_support.cpp.o[0m
+[4.956s] [ 52%] [32mBuilding CXX object CMakeFiles/turtle_multi_target__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_multi_target/msg/detail/current_target__type_support.cpp.o[0m
+[4.963s] [ 55%] [32m[1mLinking C shared library libturtle_multi_target__rosidl_typesupport_introspection_c.so[0m
+[4.964s] [ 58%] [32mBuilding CXX object CMakeFiles/turtle_multi_target__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_multi_target/msg/detail/current_target__type_support_c.cpp.o[0m
+[4.974s] [ 61%] [32m[1mLinking CXX shared library libturtle_multi_target__rosidl_typesupport_c.so[0m
+[5.113s] [ 61%] Built target turtle_multi_target__rosidl_typesupport_introspection_c
+[5.132s] [ 61%] Built target turtle_multi_target__rosidl_typesupport_c
+[5.291s] [ 64%] [32m[1mLinking CXX shared library libturtle_multi_target__rosidl_typesupport_cpp.so[0m
+[5.339s] [ 67%] [32m[1mLinking CXX shared library libturtle_multi_target__rosidl_typesupport_introspection_cpp.so[0m
+[5.425s] [ 67%] Built target turtle_multi_target__rosidl_typesupport_cpp
+[5.484s] [ 70%] [32m[1mLinking CXX shared library libturtle_multi_target__rosidl_typesupport_fastrtps_c.so[0m
+[5.489s] [ 73%] [32m[1mLinking CXX shared library libturtle_multi_target__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.499s] [ 73%] Built target turtle_multi_target__rosidl_typesupport_introspection_cpp
+[5.656s] [ 73%] Built target turtle_multi_target__rosidl_typesupport_fastrtps_c
+[5.658s] [ 73%] Built target turtle_multi_target__rosidl_typesupport_fastrtps_cpp
+[5.683s] [ 73%] Built target turtle_multi_target
+[5.710s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.937s] [ 76%] Built target turtle_multi_target__py
+[5.964s] [ 79%] [32mBuilding C object CMakeFiles/turtle_multi_target__rosidl_generator_py.dir/rosidl_generator_py/turtle_multi_target/msg/_current_target_s.c.o[0m
+[6.166s] [ 82%] [32m[1mLinking C shared library libturtle_multi_target__rosidl_generator_py.so[0m
+[6.375s] [ 82%] Built target turtle_multi_target__rosidl_generator_py
+[6.400s] [ 88%] [32mBuilding C object CMakeFiles/turtle_multi_target_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.400s] [ 88%] [32mBuilding C object CMakeFiles/turtle_multi_target_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.400s] [ 91%] [32mBuilding C object CMakeFiles/turtle_multi_target_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_c.c.o[0m
+[6.510s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_introspection_c.so[0m
+[6.514s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_c.so[0m
+[6.523s] [100%] [32m[1mLinking C shared module rosidl_generator_py/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.620s] [100%] Built target turtle_multi_target_s__rosidl_typesupport_c
+[6.622s] [100%] Built target turtle_multi_target_s__rosidl_typesupport_introspection_c
+[6.662s] [100%] Built target turtle_multi_target_s__rosidl_typesupport_fastrtps_c
+[6.679s] Invoked command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target -- -j12 -l12
+[6.692s] Invoking command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target
+[6.702s] -- Install configuration: ""
+[6.703s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/ament_index/resource_index/rosidl_interfaces/turtle_multi_target
+[6.704s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/msg/CurrentTarget.json
+[6.704s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.705s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.706s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/current_target.h
+[6.706s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/rosidl_generator_c__visibility_control.h
+[6.706s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.707s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__description.c
+[6.707s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__type_support.c
+[6.707s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__functions.h
+[6.708s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__struct.h
+[6.708s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__type_support.h
+[6.708s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__functions.c
+[6.709s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/library_path.sh
+[6.709s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/library_path.dsv
+[6.710s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_generator_c.so
+[6.710s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_generator_c.so" to ""
+[6.710s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.711s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.711s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.711s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.711s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__rosidl_typesupport_fastrtps_c.h
+[6.711s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_fastrtps_c.so
+[6.711s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_fastrtps_c.so" to ""
+[6.712s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.712s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.712s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.712s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/current_target.hpp
+[6.712s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.712s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__builder.hpp
+[6.712s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__type_support.hpp
+[6.713s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__struct.hpp
+[6.713s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__traits.hpp
+[6.713s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.713s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.713s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.714s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.714s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/dds_fastrtps
+[6.714s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__rosidl_typesupport_fastrtps_cpp.hpp
+[6.714s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_fastrtps_cpp.so
+[6.715s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.715s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.715s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.715s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.715s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.716s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__rosidl_typesupport_introspection_c.h
+[6.716s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__type_support.c
+[6.716s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_introspection_c.so
+[6.717s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_introspection_c.so" to ""
+[6.717s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_c.so
+[6.717s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_c.so" to ""
+[6.717s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target
+[6.717s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg
+[6.717s] -- Up-to-date: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail
+[6.718s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__type_support.cpp
+[6.718s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/include/turtle_multi_target/turtle_multi_target/msg/detail/current_target__rosidl_typesupport_introspection_cpp.hpp
+[6.718s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_introspection_cpp.so
+[6.719s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_introspection_cpp.so" to ""
+[6.719s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_cpp.so
+[6.719s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_typesupport_cpp.so" to ""
+[6.719s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/pythonpath.sh
+[6.719s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/pythonpath.dsv
+[6.720s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info
+[6.721s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info/top_level.txt
+[6.721s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.722s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.722s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target-0.0.0-py3.12.egg-info/PKG-INFO
+[6.722s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target
+[6.723s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_introspection_c.c
+[6.723s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_c.so
+[6.723s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_introspection_c.so
+[6.723s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.723s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg
+[6.724s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg/_current_target.py
+[6.724s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg/__init__.py
+[6.724s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg/_current_target_s.c
+[6.725s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/_turtle_multi_target_s.ep.rosidl_typesupport_c.c
+[6.725s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/__init__.py
+[6.725s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_fastrtps_c.so
+[6.765s] Listing '/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target'...
+[6.765s] Compiling '/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/__init__.py'...
+[6.765s] Listing '/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg'...
+[6.765s] Compiling '/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg/__init__.py'...
+[6.765s] Compiling '/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/msg/_current_target.py'...
+[6.770s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_fastrtps_c.so
+[6.771s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.771s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_introspection_c.so
+[6.772s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_introspection_c.so" to ""
+[6.772s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_c.so
+[6.773s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/python3.12/site-packages/turtle_multi_target/turtle_multi_target_s__rosidl_typesupport_c.so" to ""
+[6.773s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_generator_py.so
+[6.773s] -- Set non-toolchain portion of runtime path of "/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/libturtle_multi_target__rosidl_generator_py.so" to ""
+[6.773s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/msg/CurrentTarget.idl
+[6.773s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/msg/CurrentTarget.msg
+[6.774s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/turtle_multi_target/target_switcher.py
+[6.774s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/lib/turtle_multi_target/turtle_controller.py
+[6.775s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/ament_index/resource_index/package_run_dependencies/turtle_multi_target
+[6.776s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/ament_index/resource_index/parent_prefix_path/turtle_multi_target
+[6.776s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/ament_prefix_path.sh
+[6.776s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/ament_prefix_path.dsv
+[6.776s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/path.sh
+[6.777s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/environment/path.dsv
+[6.777s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/local_setup.bash
+[6.777s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/local_setup.sh
+[6.777s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/local_setup.zsh
+[6.778s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/local_setup.dsv
+[6.778s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.dsv
+[6.779s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/ament_index/resource_index/packages/turtle_multi_target
+[6.779s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_generator_cExport.cmake
+[6.780s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_generator_cExport-noconfig.cmake
+[6.780s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_typesupport_fastrtps_cExport.cmake
+[6.780s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.780s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_generator_cppExport.cmake
+[6.781s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.781s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.781s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_introspection_cExport.cmake
+[6.781s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.782s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_cExport.cmake
+[6.782s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_cExport-noconfig.cmake
+[6.782s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_introspection_cppExport.cmake
+[6.782s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.783s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_cppExport.cmake
+[6.783s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_target__rosidl_typesupport_cppExport-noconfig.cmake
+[6.783s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_generator_pyExport.cmake
+[6.783s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/export_turtle_multi_target__rosidl_generator_pyExport-noconfig.cmake
+[6.784s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/rosidl_cmake-extras.cmake
+[6.784s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.784s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.784s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/ament_cmake_export_libraries-extras.cmake
+[6.785s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/ament_cmake_export_targets-extras.cmake
+[6.785s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.785s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.785s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_targetConfig.cmake
+[6.786s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/cmake/turtle_multi_targetConfig-version.cmake
+[6.786s] -- Installing: /home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target/share/turtle_multi_target/package.xml
+[6.790s] Invoked command in '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target

@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000382] (turtle_multi_target) JobQueued: {'identifier': 'turtle_multi_target', 'dependencies': OrderedDict()}
+[0.000990] (turtle_multi_target) JobStarted: {'identifier': 'turtle_multi_target'}
+[0.016861] (turtle_multi_target) JobProgress: {'identifier': 'turtle_multi_target', 'progress': 'cmake'}
+[0.019357] (turtle_multi_target) Command: {'cmd': ['/usr/bin/cmake', '/home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target', '-DCMAKE_INSTALL_PREFIX=/home/alexandra/Robotics/module04/ex02b/install/turtle_multi_target'], 'cwd': '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alexandra', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/alexandra', 'OLDPWD': '/home/alexandra/Robotics/module04/ex02b/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'alexandra', 'NAME': 'Alexandra', 'WSL_INTEROP': '/run/WSL/988_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Александра:/mnt/c/Program Files/GHC/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/Git LFS:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/Александра/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Александра/AppData/Roaming/local/bin:/mnt/c/Users/Александра/AppData/Local/Microsoft/WindowsApps:/mnt/c/ghcup/bin:/mnt/c/Program Files/JetBrains/CLion 2024.1.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Александра/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.103130] (-) TimerEvent: {}
+[0.204299] (-) TimerEvent: {}
+[0.304682] (-) TimerEvent: {}
+[0.408501] (-) TimerEvent: {}
+[0.469579] (turtle_multi_target) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.508712] (-) TimerEvent: {}
+[0.609812] (-) TimerEvent: {}
+[0.714424] (-) TimerEvent: {}
+[0.818983] (-) TimerEvent: {}
+[0.923587] (-) TimerEvent: {}
+[1.028208] (-) TimerEvent: {}
+[1.132566] (-) TimerEvent: {}
+[1.237119] (-) TimerEvent: {}
+[1.341708] (-) TimerEvent: {}
+[1.446250] (-) TimerEvent: {}
+[1.550773] (-) TimerEvent: {}
+[1.629206] (turtle_multi_target) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.651803] (-) TimerEvent: {}
+[1.756290] (-) TimerEvent: {}
+[1.860887] (-) TimerEvent: {}
+[1.965449] (-) TimerEvent: {}
+[2.069999] (-) TimerEvent: {}
+[2.174349] (-) TimerEvent: {}
+[2.278955] (-) TimerEvent: {}
+[2.383553] (-) TimerEvent: {}
+[2.488190] (-) TimerEvent: {}
+[2.592800] (-) TimerEvent: {}
+[2.669153] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.692966] (-) TimerEvent: {}
+[2.793359] (-) TimerEvent: {}
+[2.893759] (-) TimerEvent: {}
+[2.994168] (-) TimerEvent: {}
+[3.097695] (-) TimerEvent: {}
+[3.127062] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.135040] (turtle_multi_target) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.137693] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.138553] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.198282] (-) TimerEvent: {}
+[3.302864] (-) TimerEvent: {}
+[3.326712] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.404155] (-) TimerEvent: {}
+[3.504513] (-) TimerEvent: {}
+[3.605085] (-) TimerEvent: {}
+[3.705691] (-) TimerEvent: {}
+[3.768519] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.776487] (turtle_multi_target) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.776824] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.777251] (turtle_multi_target) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.806356] (turtle_multi_target) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.806551] (-) TimerEvent: {}
+[3.911300] (-) TimerEvent: {}
+[3.957536] (turtle_multi_target) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.013687] (-) TimerEvent: {}
+[4.105052] (turtle_multi_target) StdoutLine: {'line': b'-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[4.108678] (turtle_multi_target) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[4.114012] (-) TimerEvent: {}
+[4.214393] (-) TimerEvent: {}
+[4.314929] (-) TimerEvent: {}
+[4.410833] (turtle_multi_target) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.415173] (-) TimerEvent: {}
+[4.433664] (turtle_multi_target) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.467777] (turtle_multi_target) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.499305] (turtle_multi_target) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.515423] (-) TimerEvent: {}
+[4.549465] (turtle_multi_target) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[4.577025] (turtle_multi_target) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[4.615880] (-) TimerEvent: {}
+[4.688552] (turtle_multi_target) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[4.717158] (-) TimerEvent: {}
+[4.821688] (-) TimerEvent: {}
+[4.847092] (turtle_multi_target) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.852784] (turtle_multi_target) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.922086] (-) TimerEvent: {}
+[4.990559] (turtle_multi_target) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.022485] (-) TimerEvent: {}
+[5.123104] (-) TimerEvent: {}
+[5.223796] (-) TimerEvent: {}
+[5.310441] (turtle_multi_target) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.324494] (-) TimerEvent: {}
+[5.428989] (-) TimerEvent: {}
+[5.491153] (turtle_multi_target) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.529336] (-) TimerEvent: {}
+[5.629727] (-) TimerEvent: {}
+[5.730352] (-) TimerEvent: {}
+[5.830791] (-) TimerEvent: {}
+[5.911911] (turtle_multi_target) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[5.931203] (-) TimerEvent: {}
+[5.934809] (turtle_multi_target) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[6.031649] (-) TimerEvent: {}
+[6.132111] (-) TimerEvent: {}
+[6.232586] (-) TimerEvent: {}
+[6.252305] (turtle_multi_target) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):\n'}
+[6.252525] (turtle_multi_target) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[6.252702] (turtle_multi_target) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[6.252770] (turtle_multi_target) StderrLine: {'line': b'  package.xml\n'}
+[6.252829] (turtle_multi_target) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.252887] (turtle_multi_target) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[6.252943] (turtle_multi_target) StderrLine: {'line': b'\n'}
+[6.252999] (turtle_multi_target) StderrLine: {'line': b'\x1b[0m\n'}
+[6.253054] (turtle_multi_target) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.266539] (turtle_multi_target) CommandEnded: {'returncode': 1}
+[6.303921] (turtle_multi_target) JobEnded: {'identifier': 'turtle_multi_target', 'rc': 1}
+[6.315278] (-) EventReactorShutdown: {}

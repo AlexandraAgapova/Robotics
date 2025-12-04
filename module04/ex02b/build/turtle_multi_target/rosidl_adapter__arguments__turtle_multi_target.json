@@ -1,0 +1,6 @@
+{
+  "package_name": "turtle_multi_target",
+  "non_idl_tuples": [
+    "/home/alexandra/Robotics/module04/ex02b/src/turtle_multi_target:msg/CurrentTarget.msg"
+  ]
+}

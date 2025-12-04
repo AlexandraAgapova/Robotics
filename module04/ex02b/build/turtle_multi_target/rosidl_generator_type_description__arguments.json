@@ -1,0 +1,11 @@
+{
+  "package_name": "turtle_multi_target",
+  "output_dir": "/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target/rosidl_generator_type_description/turtle_multi_target",
+  "idl_tuples": [
+    "/home/alexandra/Robotics/module04/ex02b/build/turtle_multi_target/rosidl_adapter/turtle_multi_target:msg/CurrentTarget.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}
