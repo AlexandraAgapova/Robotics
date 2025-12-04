@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/requires.txt
+writing top-level names to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/top_level.txt
+reading manifest file '../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_tf2_delay/turtle_tf2_listener.py -> /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay
+copying turtle_tf2_delay/turtle_tf2_broadcaster.py -> /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay
+running install
+running install_lib
+copying /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay/turtle_tf2_listener.py -> /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay
+copying /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay/turtle_tf2_broadcaster.py -> /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay
+byte-compiling /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+byte-compiling /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turtle_tf2_broadcaster script to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/turtle_tf2_delay
+Installing turtle_tf2_listener script to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/turtle_tf2_delay
+writing list of installed files to '/home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/install.log'

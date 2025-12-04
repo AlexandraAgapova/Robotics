@@ -1,0 +1,28 @@
+[0.800s] Invoking command in '/home/alexandra/Robotics/module04/ex03/src/turtle_tf2_delay': PYTHONPATH=/home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_delay build --build-base /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build install --record /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/install.log --single-version-externally-managed install_data
+[1.059s] running egg_info
+[1.079s] writing ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/entry_points.txt
+[1.079s] writing requirements to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/requires.txt
+[1.079s] writing top-level names to ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/top_level.txt
+[1.119s] reading manifest file '../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/SOURCES.txt'
+[1.120s] writing manifest file '../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info/SOURCES.txt'
+[1.120s] running build
+[1.120s] running build_py
+[1.120s] copying turtle_tf2_delay/turtle_tf2_listener.py -> /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay
+[1.120s] copying turtle_tf2_delay/turtle_tf2_broadcaster.py -> /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay
+[1.121s] running install
+[1.126s] running install_lib
+[1.146s] copying /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay/turtle_tf2_listener.py -> /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay
+[1.146s] copying /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build/lib/turtle_tf2_delay/turtle_tf2_broadcaster.py -> /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay
+[1.147s] byte-compiling /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[1.148s] byte-compiling /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[1.148s] running install_data
+[1.149s] running install_egg_info
+[1.169s] removing '/home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay-0.0.0-py3.12.egg-info' (and everything under it)
+[1.169s] Copying ../../build/turtle_tf2_delay/turtle_tf2_delay.egg-info to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages/turtle_tf2_delay-0.0.0-py3.12.egg-info
+[1.171s] running install_scripts
+[1.303s] Installing turtle_tf2_broadcaster script to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/turtle_tf2_delay
+[1.303s] Installing turtle_tf2_listener script to /home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/turtle_tf2_delay
+[1.303s] writing list of installed files to '/home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/install.log'
+[1.333s] Invoked command in '/home/alexandra/Robotics/module04/ex03/src/turtle_tf2_delay' returned '0': PYTHONPATH=/home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra/Robotics/module04/ex03/install/turtle_tf2_delay/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_delay build --build-base /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/build install --record /home/alexandra/Robotics/module04/ex03/build/turtle_tf2_delay/install.log --single-version-externally-managed install_data
