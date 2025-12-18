@@ -9,22 +9,18 @@ class CircleMover(Node):
         # Создаем паблишер в топик /cmd_vel
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         
-        # Таймер срабатывает каждые 0.1 секунды (10 Гц)
+        # Таймер срабатывает каждые 0.1 секунды
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.get_logger().info("Circle Mover Node Started! 🔄")
+        self.get_logger().info("Circle Mover Node Started!")
 
     def timer_callback(self):
         msg = Twist()
-        # Линейная скорость (вперед)
         msg.linear.x = 0.5 
-        # Угловая скорость (поворот)
         msg.angular.z = 0.5
         
         # Публикуем сообщение
         self.publisher_.publish(msg)
-        # (Опционально) логируем, чтобы видеть, что процесс идет
-        # self.get_logger().info(f'Publishing: Linear={msg.linear.x}, Angular={msg.angular.z}')
 
 def main(args=None):
     rclpy.init(args=args)
@@ -34,7 +30,6 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
     finally:
-        # При остановке (Ctrl+C) желательно послать стоп-команду
         stop_msg = Twist()
         node.publisher_.publish(stop_msg)
         node.destroy_node()
