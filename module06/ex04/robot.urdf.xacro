@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="glam_bot_v2">
+
+  <!-- PROPERTIES -->
+  <xacro:property name="body_len" value="0.6"/>
+  <xacro:property name="body_width" value="0.4"/>
+  <xacro:property name="body_height" value="0.2"/>
+  <xacro:property name="body_lift" value="0.15"/>
+
+  <xacro:property name="wheel_radius" value="0.1"/>
+  <xacro:property name="wheel_len" value="0.05"/>
+  <xacro:property name="wheel_offset_x" value="-0.15"/>
+  <xacro:property name="wheel_offset_y" value="0.225"/>
+  <xacro:property name="wheel_offset_z" value="-0.05"/>
+
+  <!-- MATERIALS -->
+  <material name="hot_pink">
+    <color rgba="1.0 0.41 0.7 1.0"/>
+  </material>
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+  <material name="yellow">
+    <color rgba="1.0 1.0 0.0 1.0"/>
+  </material>
+
+  <!-- MACROS -->
+  <xacro:macro name="make_wheel" params="prefix reflect">
+    <link name="${prefix}_wheel">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_len}"/>
+        </geometry>
+        <material name="black"/>
+        <origin rpy="1.5708 0 0"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_len}"/>
+        </geometry>
+        <origin rpy="1.5708 0 0"/>
+      </collision>
+      <inertial>
+        <mass value="2.0"/> <!-- Increased mass for stability -->
+        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
+    </link>
+
+    <joint name="${prefix}_wheel_joint" type="continuous">
+      <parent link="body_link"/>
+      <child link="${prefix}_wheel"/>
+      <origin xyz="${wheel_offset_x} ${reflect * wheel_offset_y} ${wheel_offset_z}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="make_lash" params="suffix parent y_pos angle">
+    <link name="${parent}_lash_${suffix}">
+      <visual>
+        <geometry> <box size="0.01 0.005 0.05"/> </geometry>
+        <material name="black"/>
+      </visual>
+      <inertial> <mass value="0.001"/> <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/> </inertial>
+    </link>
+    <joint name="${parent}_lash_${suffix}_j" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${parent}_lash_${suffix}"/>
+      <origin xyz="0.01 ${y_pos} 0.05" rpy="0 0 ${angle}"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:macro name="make_eye" params="prefix reflect">
+    <link name="${prefix}_eye">
+      <visual>
+        <geometry>
+          <cylinder radius="0.06" length="0.02"/>
+        </geometry>
+        <material name="yellow"/>
+        <origin rpy="0 1.5708 0"/>
+      </visual>
+      <inertial>
+        <mass value="0.01"/>
+        <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+      </inertial>
+    </link>
+    <joint name="${prefix}_eye_joint" type="fixed">
+      <parent link="body_link"/>
+      <child link="${prefix}_eye"/>
+      <origin xyz="0.3 ${reflect * 0.12} 0.05" rpy="0 0 0"/>
+    </joint>
+    <xacro:make_lash suffix="1" parent="${prefix}_eye" y_pos="0" angle="0"/>
+    <xacro:make_lash suffix="2" parent="${prefix}_eye" y_pos="0.03" angle="${reflect * -0.3}"/>
+    <xacro:make_lash suffix="3" parent="${prefix}_eye" y_pos="-0.03" angle="${reflect * 0.3}"/>
+  </xacro:macro>
+
+
+  <!-- ROBOT STRUCTURE -->
+  <link name="base_link"/>
+
+  <link name="body_link">
+    <visual>
+      <geometry> <box size="${body_len} ${body_width} ${body_height}"/> </geometry>
+      <material name="hot_pink"/>
+    </visual>
+    <collision>
+      <geometry> <box size="${body_len} ${body_width} ${body_height}"/> </geometry>
+    </collision>
+    <inertial>
+      <mass value="10.0"/> <!-- Heavier body -->
+      <inertia ixx="0.5" ixy="0.0" ixz="0.0" iyy="0.5" iyz="0.0" izz="0.5"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_body" type="fixed">
+    <parent link="base_link"/>
+    <child link="body_link"/>
+    <origin xyz="0 0 ${body_lift}" rpy="0 0 0"/>
+  </joint>
+
+  <link name="cabin_link">
+    <visual>
+      <geometry> <box size="0.3 0.35 0.15"/> </geometry>
+      <material name="hot_pink"/>
+    </visual>
+    <collision> <geometry> <box size="0.3 0.35 0.15"/> </geometry> </collision>
+    <inertial> <mass value="1.0"/> <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/> </inertial>
+  </link>
+
+  <joint name="cabin_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="cabin_link"/>
+    <origin xyz="-0.05 0 0.175" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:make_wheel prefix="left" reflect="1"/>
+  <xacro:make_wheel prefix="right" reflect="-1"/>
+
+  <link name="caster_wheel">
+    <visual>
+      <geometry> <sphere radius="0.05"/> </geometry>
+      <material name="black"/>
+    </visual>
+    <collision> <geometry> <sphere radius="0.05"/> </geometry> </collision>
+    <inertial> <mass value="1.0"/> <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/> </inertial>
+  </link>
+
+  <joint name="caster_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="caster_wheel"/>
+    <origin xyz="0.2 0 -0.1" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:make_eye prefix="left" reflect="1"/>
+  <xacro:make_eye prefix="right" reflect="-1"/>
+  
+  <!-- ================= LIDAR ================= -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder radius="0.05" length="0.04"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <joint name="lidar_joint" type="fixed">
+    <parent link="cabin_link"/> <!-- Ставим на крышу кабины -->
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/> <!-- Чуть выше крыши -->
+  </joint>
+
+  <xacro:include filename="robot.gazebo.xacro" />
+
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.05 0.02"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.05 0.02"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <joint name="camera_joint" type="fixed">
+    <parent link="body_link"/>
+    <!-- спереди (x=0.3), чуть приподняв (z=0.11) -->
+    <child link="camera_link"/>
+    <origin xyz="0.3 0 0.11" rpy="0 0 0"/>
+  </joint>
+  
+  <link name="camera_link_optical"/>
+  <joint name="camera_optical_joint" type="fixed">
+    <parent link="camera_link"/>
+    <child link="camera_link_optical"/>
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+  </joint>
+
+  <!-- IMU SENSOR -->
+  <link name="imu_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.02 0.01"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.02 0.02 0.01"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="body_link"/>
+    <!-- в центре корпуса -->
+    <child link="imu_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+
+</robot>

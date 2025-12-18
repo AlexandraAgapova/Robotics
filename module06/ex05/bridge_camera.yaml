@@ -1,0 +1,13 @@
+- topic_name: "/depth_camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+  ros_qos_reliability: "best_effort"
+  ros_qos_durability: "volatile"
+
+- topic_name: "/depth_camera/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "gz.msgs.CameraInfo"
+  direction: GZ_TO_ROS
+  ros_qos_reliability: "best_effort"
+  ros_qos_durability: "volatile"
