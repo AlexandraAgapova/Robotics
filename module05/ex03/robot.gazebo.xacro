@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- PROPERTIES -->
+  <xacro:property name="wheel_radius" value="0.1"/>
+  <xacro:property name="wheel_sep" value="0.45"/> <!-- Расстояние между центрами колес -->
+
+  <!-- GAZEBO COLORS (Overriding URDF materials for simulation) -->
+  <gazebo reference="body_link">
+    <material>Gazebo/Purple</material>
+  </gazebo>
+  
+  <gazebo reference="cabin_link">
+    <material>Gazebo/Purple</material>
+  </gazebo>
+
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Black</material>
+    <!-- Friction parameters for wheels -->
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Black</material>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <gazebo reference="caster_wheel">
+    <material>Gazebo/Black</material>
+    <mu1>0.01</mu1> <!-- Low friction for caster to slide/roll -->
+    <mu2>0.01</mu2>
+  </gazebo>
+
+  <!-- DIFF DRIVE PLUGIN -->
+  <gazebo>
+    <plugin
+      filename="gz-sim-diff-drive-system"
+      name="gz::sim::systems::DiffDrive">
+      
+      <!-- Wheel Joints -->
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+
+      <!-- Kinematics -->
+      <wheel_separation>${wheel_sep}</wheel_separation>
+      <wheel_radius>${wheel_radius}</wheel_radius>
+
+      <!-- Control -->
+      <topic>/cmd_vel</topic> <!-- Topic to listen to -->
+      
+      <!-- Output -->
+      <odom_topic>/odom</odom_topic>
+      <tf_topic>/tf</tf_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
+      <odom_publish_frequency>30</odom_publish_frequency>
+      
+    </plugin>
+    
+    <!-- Joint State Publisher (to see moving wheels in RViz too) -->
+    <plugin
+        filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        <topic>/joint_states</topic>
+    </plugin>
+  </gazebo>
+
+</robot>
