@@ -10,14 +10,10 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     current_dir = os.getcwd()
     
-    # 1. Загрузка URDF (Xacro)
-    # Используем абсолютный путь к файлу в папке ex03
     xacro_file = os.path.join(current_dir, 'robot.urdf.xacro')
     
-    # Важно: Оборачиваем в ParameterValue(..., value_type=str)
     robot_description_content = ParameterValue(Command(['xacro ', xacro_file]), value_type=str)
 
-    # 2. Robot State Publisher
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -25,8 +21,7 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_description_content}]
     )
 
-    # 3. Запуск Gazebo Harmonic (gz_sim)
-    # ИСПРАВЛЕНИЕ: Более надежный способ передачи аргументов
+    # Запуск Gazebo Harmonic
     ros_gz_sim_pkg = get_package_share_directory('ros_gz_sim')
     gz_sim_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -37,7 +32,7 @@ def generate_launch_description():
         }.items(),
     )
 
-    # 4. Спавн робота
+    # cпавн робота
     spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
@@ -49,7 +44,6 @@ def generate_launch_description():
         output='screen',
     )
 
-    # 5. Мост (Bridge)
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
@@ -62,9 +56,8 @@ def generate_launch_description():
         output='screen'
     )
 
-    # 6. RViz
+    # RViz
     rviz_config = os.path.join(current_dir, 'config.rviz')
-    # Проверка на существование файла, чтобы не падать
     if os.path.exists(rviz_config):
         rviz_args = ['-d', rviz_config]
     else:
@@ -79,11 +72,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        # Настройка окружения для корректной работы ресурсов (опционально, но полезно)
-        # AppendEnvironmentVariable(
-        #     name='GZ_SIM_RESOURCE_PATH',
-        #     value=current_dir
-        # ),
         gz_sim_launch,
         node_robot_state_publisher,
         spawn_entity,

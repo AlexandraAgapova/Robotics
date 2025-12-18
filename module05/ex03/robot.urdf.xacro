@@ -147,7 +147,6 @@
   <joint name="caster_joint" type="fixed">
     <parent link="body_link"/>
     <child link="caster_wheel"/>
-    <!-- Важно! В симуляции caster часто делают frictionless, здесь он fixed (проскальзывает) -->
     <origin xyz="0.2 0 -0.1" rpy="0 0 0"/>
   </joint>
 
