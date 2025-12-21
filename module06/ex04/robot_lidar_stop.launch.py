@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 import os
+
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -7,11 +9,15 @@ from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 from ament_index_python.packages import get_package_share_directory
 
+
 def generate_launch_description():
     current_dir = os.getcwd()
-    
+
     xacro_file = os.path.join(current_dir, 'robot.urdf.xacro')
-    robot_description_content = ParameterValue(Command(['xacro ', xacro_file]), value_type=str)
+    robot_description_content = ParameterValue(
+        Command(['xacro ', xacro_file]),
+        value_type=str
+    )
 
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
@@ -31,28 +37,36 @@ def generate_launch_description():
     spawn_entity = Node(
         package='ros_gz_sim',
         executable='create',
-        arguments=['-topic', 'robot_description', '-name', 'glam_bot', '-z', '0.5', '-x', '-3.0', '-y', '0.0'],
+        arguments=[
+            '-topic', 'robot_description',
+            '-name', 'glam_bot',
+            '-z', '0.5',
+            '-x', '-3.0',
+            '-y', '0.0'
+        ],
         output='screen',
     )
-    
+
     gz_scan_topic = '/world/gpu_lidar_sensor/model/glam_bot/link/base_link/sensor/lidar/scan'
 
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=[
-            f'{gz_scan_topic}@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan',
-            '/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
-            '/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
-            '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V',
-            '/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model'
-        ],
-        remappings=[
-            (gz_scan_topic, '/scan')
-        ],
+        parameters=[{
+            'config_file': os.path.join(current_dir, 'config', 'robot_bridge.yaml'),
+            'qos_overrides./tf_static.publisher.durability': 'transient_local',
+        }],
         output='screen'
     )
 
+    lidar_tf = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'glam_bot/base_link/lidar'],
+        output='screen'
+    )
+
+    # RViz
     rviz_config = os.path.join(current_dir, 'config.rviz')
     rviz_node = Node(
         package='rviz2',
@@ -61,7 +75,7 @@ def generate_launch_description():
         arguments=['-d', rviz_config] if os.path.exists(rviz_config) else [],
         output='screen'
     )
-    
+
     lidar_stop_script = os.path.join(current_dir, 'lidar_stop.py')
     lidar_node = ExecuteProcess(
         cmd=['python3', lidar_stop_script],
@@ -73,6 +87,7 @@ def generate_launch_description():
         node_robot_state_publisher,
         spawn_entity,
         bridge,
+        lidar_tf,
         rviz_node,
         lidar_node
     ])
